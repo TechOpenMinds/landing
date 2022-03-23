@@ -12,6 +12,21 @@ body {
     background: linear-gradient(68.15deg, #7108bd9b 16.62%, #7406bd 85.61%);
 }
 
-.head {
+.container {
     display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+}
+.baseboard{
+    max-width: 100%;
+    max-height: 350px;
+    background-color: rgb(110, 1, 138);
+}
+.baseboard-image {
+    max-width: 300px;
+}
+.copyright {
+    background-color: rgb(110, 1, 138)
 }
