@@ -17,16 +17,27 @@ body {
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
-    padding: 24px;
+    padding: 20px;
 }
+
+.container-image {
+    background-color: aliceblue;
+    height: 72px;
+}
+.container-menu {
+
+}
+
 .baseboard{
     max-width: 100%;
     max-height: 350px;
     background-color: rgb(110, 1, 138);
 }
+
 .baseboard-image {
     max-width: 300px;
 }
+
 .copyright {
     background-color: rgb(110, 1, 138)
 }
