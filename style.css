@@ -103,10 +103,21 @@ body {
     font-size: 24px;
  }
 
+ .team {
+    border-top: 0.4px solid #960cd6;
+    padding-top: 48px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+    margin-top: 100px;
+ }
+
  #team-image-round {
     height: 100px;
     height: 100px;
     border-radius: 50px;
+
  }
 
 .baseboard{
