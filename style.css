@@ -103,6 +103,12 @@ body {
     font-size: 24px;
  }
 
+ #team-image-round {
+    height: 100px;
+    height: 100px;
+    border-radius: 50px;
+ }
+
 .baseboard{
     max-width: 100%;
     max-height: 350px;
