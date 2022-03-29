@@ -29,44 +29,36 @@ body {
     gap: 30px;
 }
 
-.container-menu-item {
-    color: #000000;
-
+.btns {
+    text-align: center;
+    margin-top: 50px;
 
 }
- .container-menu-item {
+ .efeito{
      border:none;
-     color:#ffffff;
-     padding: 5px;
-     margin: 0px;
-     font-size: 16px;
-     line-height: 24px;
-     border-radius: 10px;
+     color:#000000;
+     padding: 10px;
+     font-size: 18px;
      position: relative;
      box-sizing: border-box;
      cursor: pointer;
-     transition: all 400ms ease;
+     transition: all 400ms ;
 
 
  }
 
-.container-menu-item {
-
-    background: #376693;
-
-}
-.container-menu-item :before {
+.efeito-1:before {
     content: '';
     position: absolute;
-    top: 0px;
+    top: 31px;
     left: 0px;
     width: 0px;
-    height: 64px;
-    background: rgba(255, 255, 255, 0.3);
+    height: 5px;
+    background: rgba(112, 2, 175, 0.486);
     border-radius: 10px;
     transition: all,1s;
 }
-.container-menu-item :hover:before{
+.efeito-1:hover:before{
     width: 100%;
 }
 
