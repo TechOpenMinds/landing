@@ -24,18 +24,22 @@ p {
     line-height: 14px;
 }
 
+
 .container {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
     padding: 30px;
+    
 }
 
 .container-image {
     display: flex;
     height: 52px;
+    
 }
+
 .container-menu {
     display: flex;
     gap: 30px;
@@ -133,6 +137,7 @@ p {
 
 .primary-content {
     height: 430%;
+    
  }
 
  .secondary-content {
