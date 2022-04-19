@@ -233,16 +233,80 @@ p {
    transform: rotateX(-90deg) translateY(100%);
 }
 
-.baseboard{
-    max-width: 100%;
-    max-height: 350px;
+footer {
+    background-color: rebeccapurple;
+    height: 100%;
+    /* padding: 40px 0; */
+    /* background-color: rebeccapurple; */
+    display: flex;
+    justify-content: space-around;
+    height: 160px;
+}
+
+footer .col {
     
 }
 
-.baseboard-image {
-    max-width: 300px;
+footer .col img {
+    max-width: 132px;
 }
 
-.copyright {
-  color: #ffffff;
+footer .col .logo {
+    /* background-color: red; */
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
+
+footer .col .formulario {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    padding-top: 16px;
+}
+
+footer .col .title {
+    text-align: center;
+    padding-top: 16px;
+}
+
+footer .col .form-item {
+    padding-bottom: 8px;
+    width: 100%;
+}
+
+footer .col .form-item input {
+    width: 100%;
+}
+
+footer .col .copy {
+    background-color:red;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+  .baseboard {
+      display: flex;
+      justify-content: center;
+      font-size: 22px;
+      color: #ffffff;
+  }
+
+  .baseboard-box {
+      height: 28px;
+      
+  }
+
+  .base-image {
+
+    width: 15%;
+    
+  }
+  .copyright {
+  
+    color: #ffffff;
+   
+  }
